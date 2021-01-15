@@ -1,0 +1,4 @@
+[target.'cfg(all())']
+rustflags = [
+    "--cfg=webs_sys_unstable_apis"
+]
